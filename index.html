@@ -47,7 +47,14 @@ body{
   from{opacity:0;transform:translateY(40px)}
   to{opacity:1;transform:translateY(0)}
 }
+}
 
+/* ===================== PAGE 3 ===================== */
+video{
+  width:90%;max-width:400px;
+  border-radius:20px;
+  box-shadow:0 0 25px rgba(0,0,0,.2);
+}
 /* TEXT */
 h1{
   font-family:'Great Vibes',cursive;
@@ -147,8 +154,7 @@ p{
 <!-- PAGE 4 -->
 <div class="page">
   <h1 id="t4"></h1>
-  <video style="width:100%; max-width:420px; height:auto; border-radius:15px; display:block; margin:0 auto;">
-  <source src="video.mp4" type="video/mp4">
+  <video id="vid" src="video.mp4" controls></video>
 </video>
   </video>
   <button class="btn" onclick="nextPage()">Massage for you ❤️ ➜</button>
@@ -296,5 +302,6 @@ function nextFinalImg(){
 
 </body>
 </html>
+
 
 
